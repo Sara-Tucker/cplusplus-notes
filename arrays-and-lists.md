@@ -9,9 +9,9 @@ A data structure with a fixed size used to store variables of the same type.
     datatype arrayName[] = { item1, item2, itemN };
 
 // Copy an array:
-	int a[] = { 0,1,2,3 };
-	int b[4];
-	copy(begin(a), end(a), begin(b));
+    int a[] = { 0,1,2,3 };
+    int b[4];
+    copy(begin(a), end(a), begin(b));
 ```
 
 <br>
@@ -40,10 +40,10 @@ A data structure with a fixed size used to store variables of the same type.
 
 // Find the largest and smallest elements in an array:
     #include <algorithm>
-	int* max = max_element(begin(arrayName), end(arrayName));
-	int* min = min_element(begin(arrayName), end(arrayName));
-	cout << *max << endl;
-	cout << *min << endl;
+    int* max = max_element(begin(arrayName), end(arrayName));
+    int* min = min_element(begin(arrayName), end(arrayName));
+    cout << *max << endl;
+    cout << *min << endl;
 
 // Search for a specified object and return the index of its first occurrence:
     // DONT KNOW    
@@ -59,14 +59,15 @@ A data structure with a fixed size used to store variables of the same type.
 
 
 // Operations with two arrays:
-	int a[3] = { 1, 2, 3 };
-	int b[3] = { 4, 5, 6 };
-	int aTimesB[3];
+    int a[3] = { 1, 2, 3 };
+    int b[3] = { 4, 5, 6 };
+    int aTimesB[3];
 
-	for (int i = 0; i < sizeof(a) / sizeof(int); i++)
-		aTimesB[i] = a[i] * b[i];
+    for (int i = 0; i < sizeof(a) / sizeof(int); i++)
+        aTimesB[i] = a[i] * b[i];
     //prints 4, 10, 18
 ```
+
 
 <br>
 
