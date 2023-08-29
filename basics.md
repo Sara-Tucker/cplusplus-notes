@@ -8,8 +8,8 @@ int main()
 	std::cout << "Hello World!" << std::endl;
 }
 ```
-`#`  - preprocessor directive
-:: - scope resolution operator that allows look-ups for objects by name within a namespace.
+\#  - preprocessor directive<br>
+:: - scope resolution operator that allows look-ups for objects by name within a namespace.<br>
 << - the stream 'insertion operator', which inserts an object into the stream object. "stream << content"
 
 <br>
@@ -17,10 +17,10 @@ int main()
 
 # Strings:
 Function | Description
----
+--- | ---
 length() | Returns the length of the string.
-find() | Search for a certain substring inside a string and returns the position of the first character of the substring. 
-substr() | This function is used to create a substring from a given string. 
+find() | Search for a certain substring inside a string and returns the position of the first character of the substring.
+substr() | This function is used to create a substring from a given string.
 
 <br>
 <br>
@@ -116,7 +116,8 @@ int main()
 <br>
 <br>
 
-**Conditional Operator '?:'** - Returns one of two values depending on the value of a Boolean expression.  
+**Conditional Operator '?:'**<br>
+Returns one of two values depending on the value of a Boolean expression.  
 ```c++
 // The condition evaluates to true or false. If true then #1 is returned, if false then #2 is returned.
 condition ? first_expression : second_expression;
@@ -645,54 +646,3 @@ Attributes add metadata to your program. Metadata is information about the types
 <br>
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-# C++ Functions:
-A function is simply the idea of taking multiple lines of code and giving it a name so it can be called later.
-Function - reusable code that preforms an action and can optionally return data
-
-Create a function:
-	def functionname():
-		code
-Calling a function:
-	function_name()
-Example:
-	def sayhi():
-		print('Hi!')
-	sayhi()
-
-print() - prints text
-	fruit = 'apple'
-	print(fruit)
-	print('orange')
-str() - converts value to a string
-	numapples = 5
-	print('I have ' + str(numapples) + ' apples.')
-input() - gets input from user
-	Getting Input:
-		input()
-		input('What you want to ask for.')
-		fruit = input('Enter a fruit.')
-		print(fruit + ' is a good fruit.')
-int() - converts a string to an integer
-	response = input('How far would you like to travel in miles? ')
-	distance = int(response)
-float() - converts a string to a float
-
-
-
-
-
-
-
-
