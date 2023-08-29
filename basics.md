@@ -1,5 +1,5 @@
 
-# Hello World
+**Hello World**
 ```c++
 #include <iostream>
 
@@ -15,7 +15,7 @@ int main()
 <br>
 <br>
 
-# Strings:
+**Strings:**
 Function | Description
 --- | ---
 length() | Returns the length of the string.
