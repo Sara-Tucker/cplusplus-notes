@@ -99,6 +99,8 @@ numbers[2] = new int[3];
 <br>
 <br>
 
+https://www.geeksforgeeks.org/list-cpp-stl/#
+
 # List
 A data structure with a dynamic size used to store variables of the same type.  
 List\<T\> &nbsp;&nbsp;T = element type (data type)
