@@ -215,7 +215,9 @@ int multiply(int a, int b)
 }
 ```
 
-**Prototype declaration**:
+<br>
+
+**Prototype declaration**:<br>
 The prototype must specify the return type (void), the name of the function (foo), and the argument list variable types (int), but *the names of the arguments are NOT required.*
 ```c++
 void foo(int); // Prototype declaration of foo, seen by main
@@ -253,7 +255,7 @@ void foo(int x)
 
 
 what is a header (file)?
-The header files contain the definition of the functions and macros we are using in our program.
+The header files contain the definition(p sure its declarations) of the functions and macros we are using in our program.
 
 
 
